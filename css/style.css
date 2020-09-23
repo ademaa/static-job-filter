@@ -1,0 +1,97 @@
+body{
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  background-color:  hsl(180, 52%, 96%);
+}
+h5{
+  display: inline-block;
+  font-weight: 700;
+  margin:7px;
+  color: hsl(180, 14%, 20%);
+  line-height: 0.5;
+}
+/* search bar */
+.search-bar{
+  position: relative;
+  bottom: 130px;
+}
+.btn{
+  color: #fff;
+}
+/* header part */
+
+.header-part{
+  background-color: hsl(180, 29%, 50%);
+  height: 100px;
+  background-image: url("../images/bg-header-desktop.svg");
+  background-position: center;
+  margin-bottom: 100px;
+
+}
+/* items section */
+.item{
+  padding: 2%;
+  background-color: hsl(180, 31%, 95%);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px hsl(180, 31%, 90%);
+}
+.item-photo{
+  float: left;
+  padding-right: 5px;
+}
+.title{
+  display: inline-block;
+  color: hsl(180, 29%, 50%);
+  margin: 7px;
+  font-weight: 500;
+}
+.badge{
+  color: hsl(180, 52%, 96%);
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 12px;
+}
+.badge-cyan{
+  background-color: hsl(180, 29%, 50%);
+}
+.time-text{
+  display: inline-block;
+  margin: 5px;
+  color: hsl(180, 8%, 52%);
+  font-size: 12px;
+}
+.tags{
+  background-color: hsl(180, 31%, 90%);
+  color: hsl(180, 29%, 50%);
+  padding: 4px;
+  border-radius: 5px;
+}
+.chossen-tag{
+  color: hsl(180, 31%, 90%);
+  background-color: hsl(180, 29%, 50%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media (max-width: 730px){
+  .item-photo{
+    float: none;
+    position: relative;
+    bottom: 20px;
+  }
+  .tags{
+    padding: 2px;
+  }
+  .title , h5{
+    display: block;
+  }
+  .badge{
+    margin: 10px auto 10px;
+  }
+  .search-bar{
+    position: static;
+    margin-bottom: 30px;
+  }
+}
